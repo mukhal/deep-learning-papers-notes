@@ -12,6 +12,9 @@
 
 
 ### Insight
-* 
+* Automatic labeling of question with difficulty iusing pre-trained QA systems is a good idea and could be generalized to other tasks as well and evaluate the labeling method by measuring the correlation with human judgment.
+* Partially initializing the decoder with a trainable embedding of the difficulty level estimated.
 
 ### Drawbacks and Possible Improvements
+* The title is kind of misleading as you can't actually control the difficulty of the questions generated.
+* Transformer model could give better performance.
