@@ -18,3 +18,4 @@
 ### Drawbacks and Possible Improvements
 * The title is kind of misleading as you can't actually control the difficulty of the questions generated.
 * Transformer model could give better performance.
+* Generating multiple questions for the same sentence (Future work).
