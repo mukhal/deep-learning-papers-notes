@@ -8,11 +8,10 @@
 * Each difficulty level is assigned a trainable vector embedding that is used to partially initialize the decoder.
 * used two reading comprehension systems (R-Net and BiDaf) to automatically label SQUAD question with respect to difficulty. If both answer it easily, it's easy if both can't answer it, then it's hard. Other questions are ommited. (I like that idea of automatic labeling using pre-trained systems)
 * Decoder is based on pointer copy and attention
-* 
 
 
 ### Insight
-* Automatic labeling of question with difficulty iusing pre-trained QA systems is a good idea and could be generalized to other tasks as well and evaluate the labeling method by measuring the correlation with human judgment.
+* Automatic labeling of question with difficulty iusing pre-trained QA systems is a good idea and could be generalized to other tasks as well. Evaluating the labeling method can be done by measuring the correlation with human judgment.
 * Partially initializing the decoder with a trainable embedding of the difficulty level estimated.
 
 ### Drawbacks and Possible Improvements
