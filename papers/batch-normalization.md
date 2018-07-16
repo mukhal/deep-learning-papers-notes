@@ -13,3 +13,7 @@
 
 * Now there could be a problem that normalization forces inputs to remain in the linearity regions of non-linearity functions. Hence, they add two learnt parameters that perform scaling and shifting to the normalization output to be able represent the identity transform (if needed).
 
+* During inference, BN operation is done using the population statistics Var[x] and E[x] rather than the Batch statistics. This is done since, during inference, We want the output to depend only on the input deterministically not on the batch of the input.
+
+* Adding BN and other modifications, they improved the Inception model accuracy from 72.2% to 74.8%.
+
