@@ -6,5 +6,5 @@ I have to admit, the idea of this repo was inspired by Jason Benn's similar [rep
 
 * Difficulty Controllable Question Generation for Reading Comprehension [[notes](papers/dc-question-generation.md)] [[link](https://arxiv.org/abs/1807.03586)]
 
-
+* Universal Transformers [[notes](papers/universal-transformers.md)] [[link](https://arxiv.org/abs/1807.03819)]
 
