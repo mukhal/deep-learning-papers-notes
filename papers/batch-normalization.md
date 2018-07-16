@@ -15,5 +15,5 @@
 
 * During inference, BN operation is done using the population statistics Var[x] and E[x] rather than the Batch statistics. This is done since, during inference, We want the output to depend only on the input deterministically not on the batch of the input.
 
-* Adding BN and other modifications, they improved the Inception model accuracy on ImageNet classification from 72.2% to 74.8% (BN-30x).
+* By adding BN and other modifications, they improved the Inception model accuracy on ImageNet classification from 72.2% to 74.8% (BN-30x).
 
