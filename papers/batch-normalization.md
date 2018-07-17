@@ -1,5 +1,5 @@
 
-## [Batch Normalization](https://arxiv.org/abs/1502.03167)
+## [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
 
 ### Notes
 
