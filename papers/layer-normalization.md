@@ -8,3 +8,4 @@
 
 * Layer normalization is independent of the batch size. It can work with any batch size (even 1 "online learning").
 
+* Experiments on learning image-language joint-embeddings, Question Answering, Skip-Thought vectors show that using LN help accelerate training substantially.
