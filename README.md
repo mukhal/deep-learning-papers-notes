@@ -11,3 +11,7 @@ I have to admit, the idea of this repo was inspired by Jason Benn's similar [rep
 #### 2015-03
 
 * ##### Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[Notes](papers/batch-normalization.md)] [[link](https://arxiv.org/abs/1502.03167)]
+
+#### 2014-11
+
+* ##### Retrofitting Word Vectors to Semantic Lexicons [[Notes[(papers/retrofitting.md)] [[link](https://arxiv.org/abs/1411.4166)]
