@@ -14,4 +14,4 @@ I have to admit, the idea of this repo was inspired by Jason Benn's similar [rep
 
 #### 2014-11
 
-* ##### Retrofitting Word Vectors to Semantic Lexicons [[Notes[(papers/retrofitting.md)] [[link](https://arxiv.org/abs/1411.4166)]
+* ##### Retrofitting Word Vectors to Semantic Lexicons [[Notes](papers/retrofitting.md)] [[link](https://arxiv.org/abs/1411.4166)]
