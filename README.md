@@ -10,4 +10,4 @@ I have to admit, the idea of this repo was inspired by Jason Benn's similar [rep
 
 #### 2015-03
 
-* ##### Batch Normalization [[Notes](papers/batch-normalization.md)] [[link](https://arxiv.org/abs/1502.03167)]
+* ##### Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[Notes](papers/batch-normalization.md)] [[link](https://arxiv.org/abs/1502.03167)]
