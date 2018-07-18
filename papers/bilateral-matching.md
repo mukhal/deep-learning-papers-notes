@@ -15,7 +15,6 @@
     
    * Having defined  f_m, they propose 4 different matching strategies : Full, max-pooling, attentive and max attentive-matchings. These stratiegies are all used together and their resuting vectors are conatenated :
    
-       * Full Matching 
    
  
    
