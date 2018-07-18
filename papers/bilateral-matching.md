@@ -4,4 +4,8 @@
 * The proposed approach matches P and Q in two directions (Q -> P and P -> Q) with multiple perspectives.
 * Their model consists of 5 layers : 
 
+    * **Embeddings layer** : Maps words to vectors. Initialized with GloVe vectors.
+    * **Context Representation layer** : a Bi-LSTM to encode contextual embeddings of each symbol in P and Q.
+    
+
     * Matching layer is the most significant where the last hidden representation of sentence Q is matched agains all tokens hidden representations of P and vice versa.
