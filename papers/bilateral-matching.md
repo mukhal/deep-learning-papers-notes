@@ -11,4 +11,4 @@
     * **Prediction layer** outputs the prediction P(y|Q,P) through a two layer feed-forward network on the fixed length natching vector followed by a softmax layer.
    
 * The main contribution of the paper is the mutli perspective matching operation :
-    * m= f_m(v1, v2, W) where W ls lxd and l is the number of matching perspectives.
+    * m = f_m (v1, v2, W) where W ls l x d and l is the number of matching perspectives.
