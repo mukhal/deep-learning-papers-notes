@@ -10,7 +10,7 @@
     * **Aggregation Layer** Aggregates the two sequences of matching vectors output from the matching layer into one fixed-length matching vector.
     * **Prediction layer** outputs the prediction P(y|Q,P) through a two layer feed-forward network on the fixed length natching vector followed by a softmax layer.
    
-* The main contribution of the paper is the *Mutli-Perspective Matching Operation* :
+* The main contribution of the paper is the **Mutli-Perspective Matching Operation** :
     * m = f_m (v1, v2, W) where W ls l x d and l is the number of matching perspectives. m_k = cosine(W_k o v1, W_k o v2). This is matching v1 and v2 according to the kth perspective.
     
    * Having defined  f_m, they propose 4 different matching strategies : Full, max-pooling, attentive and max attentive-matchings. These stratiegies are all used together and their resuting vectors are conatenated :
