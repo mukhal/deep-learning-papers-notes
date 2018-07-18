@@ -13,5 +13,9 @@
 * The main contribution of the paper is the mutli perspective matching operation :
     * m = f_m (v1, v2, W) where W ls l x d and l is the number of matching perspectives. m_k = cosine(W_k o v1, W_k o v2). This is matching v1 and v2 according to the kth perspective.
     
-   * Having defined  f_m, they propose 4 different matching strategies : Full, max-pooling, attentive and max attentive-matchings. These stratiegies are all used together and their resuting vectors are conatenated.
+   * Having defined  f_m, they propose 4 different matching strategies : Full, max-pooling, attentive and max attentive-matchings. These stratiegies are all used together and their resuting vectors are conatenated :
+   
+       * Full Matching 
+   
+ 
    
