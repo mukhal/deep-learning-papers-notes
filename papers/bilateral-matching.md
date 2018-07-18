@@ -6,6 +6,9 @@
 
     * **Embeddings layer** : Maps words to vectors. Initialized with GloVe vectors.
     * **Context Representation layer** : a Bi-LSTM to encode contextual embeddings of each symbol in P and Q.
-    
-
-    * Matching layer is the most significant where the last hidden representation of sentence Q is matched agains all tokens hidden representations of P and vice versa.
+    * **Matching layer** is the most significant layer. Matches each time-step of Q against all time-steps of P (last hidden         representation) of P and each time-step P against all time-steps of Q.
+    * **Aggregation Layer** Aggregates the two sequences of matching vectors output from the matching layer into one fixed-length matching vector.
+    * **Prediction layer** outputs the prediction P(y|Q,P) through a two layer feed-forward network on the fixed length natching vector followed by a softmax layer.
+   
+* The main contribution of the paper is the mutli perspective matching operation :
+    * m= f_m(v1, v2, W) where W ls lxd and l is the number of matching perspectives.
