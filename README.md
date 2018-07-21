@@ -8,6 +8,6 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Layer Normalization [[Notes](papers/layer-normalization.md)] [[link](https://arxiv.org/abs/1607.06450)]
 * Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[Notes](papers/batch-normalization.md)] [[link](https://arxiv.org/abs/1502.03167)]
 * Bilateral Multi-Perspective Matching for Natural Language Sentences [[Link](https://arxiv.org/abs/1702.03814)] [[Notes](papers/bilateral-matching.md)]
-* Deep Contextualized Word Representations [notes](papers/elmo.md)]
+* Deep Contextualized Word Representations [[notes](papers/elmo.md)]
 
 
