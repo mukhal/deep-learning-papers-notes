@@ -11,7 +11,7 @@
     * The 4 main components are Modality Nets, Encoder, I/O mixer and Autoregressive Decoder. 
     * The encoder and decoder are based on 3 key computational blocks : **Convolutions**, **Attention Layers** and **Sparsely-gated mixture-of-experts**  
     * **Convolutions** : They use depth-wise separable convolutions. (Still not clear on them) with ReLU activations and *Layer Normalization.* They use 4 convolutional blocks with residual connections.
-    *  **Attention** : Multi-head dot product attention used in the transformer model with 8 heads. Takes a soruce and a target tensors.
+    *  **Attention** : Takes a source and a target tensors then applies Multi-head dot product self-attention on the target tensor to produce Q, and point-wise convolutions on the input source to produce K, V. Then another Multi-head dot product attention is applied on Q, K and V to produce the attended source.
     *
 
 * ![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
