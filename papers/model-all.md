@@ -8,4 +8,4 @@
 
 * Although the easy choice was to set a fixed size for the unified representation across all tasks, they chose to make it variable-sized.
 
-    ![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
+    * ![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
