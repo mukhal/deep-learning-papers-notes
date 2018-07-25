@@ -4,7 +4,7 @@
 
 * Most multi-task learning in Speech Recognition, Machine Translation and Computer Vision involved tasks taken from *the same domain*. In the paper, they try to answer the question of whether it's possible for one **MultiModel** to learn multiple tasks from multiple domains.
 
-* **Modality Networks** : For each domain, there's a modality net responsible for converting inputs from the external domain into a *unified representation* to be processed by the MultiModel. Modality networks are *domain specific* rather than *task-sepecific*. So, for instance, machine translation tasks, share the same modality net. They use 4 such nets for text, image, audio and categorical data.
+* **Modality Networks** : For each domain, they propose a modality net responsible for converting inputs from the external domain into a *unified representation* to be processed by the MultiModel. Modality networks are *domain specific* rather than *task-sepecific*. So, for instance, machine translation tasks, share the same modality net. They use 4 such nets for text, image, audio and categorical data.
 
 * Although the easy choice was to set a fixed size for the unified representation across all tasks, they chose to make it variable-sized.
 
