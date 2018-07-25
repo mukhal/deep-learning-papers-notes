@@ -21,3 +21,8 @@
 * **Results** : The model performs close to the state-of-the-art on the 8 tasks. 
     * Training the model jointly on the 8 problems results in improvement over training the task separately on some tasks especially the ones with less data such as parsing.
     * Strangely, training both ImageNet and parsing results in improvement of the parsing performance. They argue that there are some computational primitives shared between these two tasks.
+
+### Notes
+* Multi-task learning is especially benefitial for tasks with little available data.
+* The computational blocks used are not the only ones possible. For instance, an RNN could be introduced or a simple feed-forward network. * I assume they used thes 3 computational blocks because CNNs, Attention and FF nets are the basic blocks for proceessing images, text and audio respectively.
+* Since there are not improvement on the state-of-the-art using the MultiModel, I see no reason to use it in practice especially since it must be harder to implement and train than single-task models.
