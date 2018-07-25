@@ -14,6 +14,5 @@
     *  **Attention** : Takes a source and a target tensors then applies Multi-head dot product self-attention on the target tensor to produce Q, and point-wise convolutions on the input source to produce K, V. Then another Multi-head dot product attention is applied on Q, K and V to produce the attended source. They use *timing signals* which are somehome similar to positional encodings.
     * **Mixture of Experts** : a collection of small feed-forward networks with a gating network that selects a combination of these networks to process the input.
     
-
-* ![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
-* ![alt text](https://cdn-images-1.medium.com/max/878/0*9IVp7Bkj8Pq-prYO.jpg)
+![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
+![alt text](https://cdn-images-1.medium.com/max/878/0*9IVp7Bkj8Pq-prYO.jpg)
