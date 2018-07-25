@@ -20,3 +20,4 @@
 
 * **Results** : The model performs close to the state-of-the-art on the 8 tasks. 
     * Training the model jointly on the 8 problems results in improvement over training the task separately on some tasks especially the ones with less data such as parsing.
+    * Strangely, training both ImageNet and parsing results in improvement of the parsing performance. They argue that there are some computational primitives shared between these two tasks.
