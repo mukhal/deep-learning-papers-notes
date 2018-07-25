@@ -16,4 +16,7 @@
     *  **Attention** : Takes a source and a target tensors then applies Multi-head dot product self-attention on the target tensor to produce Q, and point-wise convolutions on the input source to produce K, V. Then another Multi-head dot product attention is applied on Q, K and V to produce the attended source. They use *timing signals* which are somehome similar to positional encodings.
     * **Mixture of Experts** : a collection of small feed-forward networks with a gating network that selects a combination of these networks to process the input.
     
-* To allow the decoder to produce outputs for different tasks even with the same modality, we always start decoding with a command-token, such as To-English or To-Parse-Tree. We learn an embedding vector corresponding to each of the tokens during training. 
+* To allow the decoder to produce outputs for different tasks even with the same modality, they would start decoding with a command-token, such as To-English or To-Parse-Tree. We learn an embedding vector corresponding to each of the tokens during training. 
+
+* **Results** : The model performs close to the state-of-the-art on the 8 tasks. 
+    * Training the model jointly on the 8 problems results in improvement over training the task separately on some tasks especially the ones with less data such as parsing.
