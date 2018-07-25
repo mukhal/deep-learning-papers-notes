@@ -7,8 +7,8 @@
 * **Modality Networks** : For each domain, there's a modality net responsible for converting inputs from the external domain into a *unified representation* to be processed by the MultiModel. Modality networks are *domain specific* rather than *task-sepecific*. So, for instance, machine translation tasks, share the same modality net. They use 4 such nets for text, image, audio and categorical data.
 
 * Although the easy choice was to set a fixed size for the unified representation across all tasks, they chose to make it variable-sized.
-![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
 
+![alt text](https://adriancolyer.files.wordpress.com/2018/01/one-model-fig-2.jpeg?w=640)
 * **Architecture** : 
     * The 4 main components are Modality Nets, Encoder, I/O mixer and Autoregressive Decoder. 
     * The encoder and decoder are based on 3 key computational blocks : **Convolutions**, **Attention Layers** and **Sparsely-gated mixture-of-experts**  
