@@ -10,4 +10,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Bilateral Multi-Perspective Matching for Natural Language Sentences [[Link](https://arxiv.org/abs/1702.03814)] [[Notes](papers/bilateral-matching.md)]
 * Deep Contextualized Word Representations [[notes](papers/elmo.md)]
 * A Model To Learn Them All [[notes](papers/model-all.md)]
-* Unsupervised Represenation Learning with Deep Convolutional Generative Adversarial Networks. [[notes](papers/dcgan.md)]
+* Neural Architecture Search with Reinforcement Learning. [[notes](papers/rl-search.md)]
