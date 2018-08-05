@@ -8,7 +8,13 @@
 * Their framework is similar to the Gorila framework. However, the use single machine with multi-core CPU.
 * They argue that multiple learners running in parallel are likely to be exploring different parts of the environment. By running different exploration policies in different threads, the overall changes being made to the parameters by multiple actor-learners applying online updates in parallel are likely to be less correlated in time than a single agent applying online updates (somehow similar to experience replay).
 
-* **Asynchronous one-step Q-Learning** : ![alt text](https://cdn-images-1.medium.com/max/800/1*4HrewiZDWkTlI3d7j8NRAw.png)
+* **Asynchronous one-step Q-Learning** : 
+    * Uses a single network for learning the Q-function.
+    * Gradients are accumulated over many timesteps before they are applied.
+    * Giving each thread a different exploration policy improves robustness. They use epsilon-greedy exploration and each epsilon is sampled periodically and different for each thread.
+
+* **Asynchronous one-step Sarsa** :
+    * 
 
 
 #### Definitions
