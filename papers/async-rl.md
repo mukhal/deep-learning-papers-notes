@@ -14,7 +14,11 @@
     * Giving each thread a different exploration policy improves robustness. They use epsilon-greedy exploration and each epsilon is sampled periodically and different for each thread.
 
 * **Asynchronous one-step Sarsa** :
-    * 
+    * Similar to one-step Q-learning with a slighlty different target equation.
+
+* **Asynchronous n-step Q-Learning** 
+   * n-step Q-learning runs the policy for n-steps and updated Q(s_t, a) towards the n-step return r_t + gamma* r_t+1 + gamma^2 * r_t+2 + .. gamma^{n-1}* r_t+n-1 + gamma^n * max_a' Q(s',a').
+   * In order to compute a single update, the algorithm first selects actions using its exploration policy for up to *tmax* steps or until a terminal state is reached. The algorithm then computes gradients for n-step Q-learning updates for each of the state-action pairs encountered since the last update. Meaning that in addition to updating Q(s_t, a_t), Q(s_t+1, a_t+1), Q(s_t+2, a_t+2) ... are also updated with their repsective returns until Q(s_t+n-1, a_t+n-1) is also updated for a total of *tmax* updates. These accumulated updates are applied in a single gradient step.
 
 
 #### Definitions
