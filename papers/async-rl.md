@@ -19,7 +19,13 @@
 * **Asynchronous n-step Q-Learning** 
    * n-step Q-learning runs the policy for n-steps and updated Q(s_t, a) towards the n-step return r_t + gamma* r_t+1 + gamma^2 * r_t+2 + .. gamma^{n-1}* r_t+n-1 + gamma^n * max_a' Q(s',a').
    * In order to compute a single update, the algorithm first selects actions using its exploration policy for up to *tmax* steps or until a terminal state is reached. The algorithm then computes gradients for n-step Q-learning updates for each of the state-action pairs encountered since the last update. Meaning that in addition to updating Q(s_t, a_t), Q(s_t+1, a_t+1), Q(s_t+2, a_t+2) ... are also updated with their repsective returns until Q(s_t+n-1, a_t+n-1) is also updated for a total of *tmax* updates. These accumulated updates are applied in a single gradient step.
-
+   
+* **Asynchronous Advantage Actor Critic (A3C)** 
+   
+   * The update performed by the algorithm can be seen as grad_0 log PI(a_t|s_t; 0 )A(s_t,a_t;0;0v). Where A(s_t,a_t) is the advantage of action a_t at state s_t. Advantage is how much better is this action from average.
+   * Parameters of the policy and the value functions are usually shared and not separate. In the paper, they use a CNN with two outputs one for the policy and one for the value function and all non-output layers shared.
+   * The entropy of the policy was added to the objective function as a regularization term since it was proved to prevent covnergence to suboptimal deterministic policies.
+   *
 
 #### Definitions
 * **Experience Replay** : Storing agent's data in a memory that is then batched or sampled to improve learning. Such aggregation offered by Experience Replay helps with non-stationary and correlated updates (which is the case with online learning)
