@@ -14,4 +14,5 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 
 #### 2018-08
 * Asynchronous Methods for Deep Reinforcement Learning [[notes](papers/async-rl.md)]
+* Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting [[notes](papers/fast-abs.md)]
 
