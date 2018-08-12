@@ -7,4 +7,8 @@
 
 * The authors propose a hybrid extractive-abstractive summarization architecture with policy-based RL to connect the two networks. They argue that this is how humans perform long documents summarization; they first select highlights (extraction), then they rewrite these highlights via compression or paraphrasong (abstraction).
 
-*
+* Incroporating extraction along with abstraction should improve the model speed and stability. This should remove *redundancy* since the model has already choosen a set of salient non-redundant sentences to abstract.
+
+* **Extractor Agent** : Computes a hierarchical sentence repesentation using a CNN (word-level) followed by an LSTM (sentence-level). Then annother LSTM *Pointer Network* extracts sentences recurrently.
+
+![alt text](https://user-images.githubusercontent.com/544269/42416552-df059792-82ac-11e8-89b4-529f3be1cea9.png)
