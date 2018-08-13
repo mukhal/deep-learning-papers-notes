@@ -22,3 +22,4 @@
 * **RL Training** * :
   * The extraction process is formulated as an MDP where at each state s_t, the extractor agent samples an action and extract a sentence and receives a reward r_t which is the ROUGE score between the abstractor output corresponding to that sentence and the whole reference summary.
   * The training follows the Advatage Actor Critic (A2C) variant of Policy Gradient. Two networks serve as the policy and the critic respectively.
+  * A EOE token is introduced to mark the end of the extraction process. The extractor stops when it outputs EOE.
