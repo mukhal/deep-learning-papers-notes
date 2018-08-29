@@ -16,5 +16,11 @@
    
 * **Language Model Fusion** : A learned gating mechanism is used for filtering the last hidden layer of a pre-trained language model. The gating output is then concatenated to the decoder state and attentions and then used to produce output words distribution should the model decide to generate rather than copy a word.
 
-* ** 
+* **Novelty Reward** : In addition to the ROUGE-L, the authors propose a *novelty metric* to encourage the model to output novel phrases not in the source document. This metric is based on the fraction of the unique n-grams in the summary output that are not in the source document. The metric is normalized by length to prevent the model from generating very short summaries. The final RL reward is the sum of the ROUGE-L and the aforementioned *novelty metric*.
+
+
+#### Results
+
+* The results shows minor improvement of performance (ROUGE-L, ROUGE-1 and ROUGE-2) over RL summarizers without LM and the novelty metric.
+* The novelty reward alone doesn't improve the ROUGE scores.
     
