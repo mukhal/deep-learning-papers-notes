@@ -1,7 +1,7 @@
 
 ## Improving Abstraction in Text Summarization 
 
-#### Key Points :
+### Key Points :
 * Summarization is the processing of compressing a long sequence of text into a more compact form.
 * The paper builds on the deep reinforced model proposed by (Paulus et. al, 2017).
 * Their main contribution is a two-fold :
@@ -19,7 +19,7 @@
 * **Novelty Reward** : In addition to the ROUGE-L, the authors propose a *novelty metric* to encourage the model to output novel phrases not in the source document. This metric is based on the fraction of the unique n-grams in the summary output that are not in the source document. The metric is normalized by length to prevent the model from generating very short summaries. The final RL reward is the sum of the ROUGE-L and the aforementioned *novelty metric*.
 
 
-#### Results
+### Results
 
 * The results shows minor improvement of performance (ROUGE-L, ROUGE-1 and ROUGE-2) over RL summarizers without LM and the novelty metric.
 * The novelty reward alone doesn't improve the ROUGE scores.
