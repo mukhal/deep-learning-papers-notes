@@ -16,3 +16,9 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Asynchronous Methods for Deep Reinforcement Learning [[notes](papers/async-rl.md)]
 * Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting [[notes](papers/fast-abs.md)]
 * Improving Abstraction in Text Summarization [[notes](papers/improv-abs.md)]
+
+
+
+#### 2019-02
+
+* Learning Unsupervised Learning Rules  [[notes](papers/unsupr-rules.md)]
