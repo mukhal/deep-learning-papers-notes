@@ -22,3 +22,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 #### 2019-02
 
 * Learning Unsupervised Learning Rules  [[notes](papers/unsupr-rules.md)]
+* Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context [[notes](papers/xl-transformer.md)]
