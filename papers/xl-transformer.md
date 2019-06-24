@@ -10,4 +10,4 @@
   
   ![alt text](https://pasteboard.co/IkT7PvHs.png)
 
- <img src="https://pasteboard.co/IkT7PvHs.png" width="350" title="hover text">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/xH2XbJL/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://movieplotholes.com/the-wolverine'>wolverine knuckles</a><br />
