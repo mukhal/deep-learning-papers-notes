@@ -15,7 +15,7 @@
 #### Notes
 
 * The inclusion of the word context in the computation of the word vector will certainly produce more context-aware word representations.
-* The backward direction in language models introduce more power to the model.
-* The idea of further fine-tuning the word representation to the specific task by introducing task specific weights  that weight each layer representation can be extended to any type of multiple-layer word vectors.
+* The backward direction in language models introduces more power into the model.
+* The idea of further fine-tuning the word representation to the specific task by introducing task specific weights that weight each layer representation can be extended to any type of multiple-layer word vectors.
 * Does the power of the vectors increase proportionally to the depth of the language model?
-* The language model was trained to predict the next word. However, these predictions (the outputs of the language model) are not used to extract the word vectors at all.
+* The language model was trained to predict the next word. However, these predictions (the outputs of the language model) are not used to extract the word vectors at all, just the hidden states are used.
