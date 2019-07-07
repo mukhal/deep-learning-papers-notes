@@ -26,6 +26,6 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 #### 2019-06
 * Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context [[notes](papers/xl-transformer.md)]
 * XLNet: Generalized Autoregressive Pretraining for Language Understanding [[notes](papers/xlnet.md)]
-
+* COMMONSENSEQA: A Question Answering Challenge TargetingCommonsense Knowledge [[notes](papers/common-sense-qa.md)]
 
 
