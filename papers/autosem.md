@@ -4,6 +4,7 @@
   * **Multi-armed bandit problem**: is a classical reinforcement learning problems where we have a set of arms each having a success rate. Pulling any of these arms gives you a stocahstic reward of +1 in case of success and -1 in case of failure.
   
   <img src='https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png' width="400" height="200">
+  *[image source](https://towardsdatascience.com/solving-the-multi-armed-bandit-problem-b72de40db97c)*
 
 
 * Two major challenges in Mutli-task learning settings are : 
