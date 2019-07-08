@@ -1,7 +1,7 @@
 ## [AutoSeM: Automatic Task Selection and Mixing in Multi-Task Learning](https://arxiv.org/abs/1904.04153)
 
 ### Relevant Concepts:
-  * **Multi-armed bandit problem**: is a classical *reinforcement learning* problem where we have a set of arms each having a success rate. Pulling any of these arms gives you a stocahstic reward of +1 in case of success and -1 in case of failure. The major challenge is that the agent has no idea of the success rate of any of the arms and it has to determine these rates by directly interacting with the arms.
+  * **Multi-armed bandit problem**: is a classical *reinforcement learning* problem where we have a set of arms each having a success rate. Pulling any of these arms gives you a stocahstic reward of +1 in case of success and -1 in case of failure. The major challenge is that the agent has no idea of the success rate of any of the arms and it has to determine these rates by directly interacting with the arms and observing the reward.
   
   <img src='https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png' width="400" height="200">
   
