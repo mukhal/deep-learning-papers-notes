@@ -24,7 +24,7 @@
  
    * The process of selecting the relevant set of auxiliary tasks with which we train the primary task is formulated as a **multi-armed bandit**, with different auxiliary tasks representing the bandit arms.
 
-   <a href="https://ibb.co/KL5KHkc"><img src="https://i.ibb.co/rcQdJSK/image.png" alt="image" border="0"></a>
+   <a href="https://ibb.co/KL5KHkc"><img src="https://i.ibb.co/rcQdJSK/image.png" alt="image" border="0" width="400" height="200"></a>
 
    * The success rate of an arm represents the utility of its corresponding task, that is its contribution to the learning of the primary task. 
    * The reward of using a task is defined to be 1 if sampling the task improves the validation metric on the primary task, otherwise its 0. 
@@ -37,7 +37,8 @@
 
    * At the end of training, the expected value of the utility of a task can be computed using 
    <a href="https://imgbb.com/"><img src="https://i.ibb.co/mv1TCF5/image.png" alt="image" border="0"></a>
-   Then we return the top-K tasks according to this expectation value.
+   
+   The first stage then returns the top-K tasks according to this expectation value.
 
   
   
