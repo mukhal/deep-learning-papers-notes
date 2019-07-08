@@ -3,10 +3,11 @@
 ### Relevant Concepts:
   * **Multi-armed bandit problem**: is a classical *reinforcement learning* problem where we have a set of arms each having a success rate. Pulling any of these arms gives you a stocahstic reward of +1 in case of success and -1 in case of failure. The major challenge is that the agent has no idea of the success rate of any of the arms and it has to determine these rates by directly interacting with the arms.
   
-  * **Beta Distribution** : 
   <img src='https://cdn-images-1.medium.com/max/1600/1*Tt8A6mP98ibBlrlFD5UJxg.png' width="400" height="200">
   
   *[image source](https://towardsdatascience.com/solving-the-multi-armed-bandit-problem-b72de40db97c)*
+  
+  * **Beta Distribution** : In short, the beta distribution can be understood as representing a probability distribution of probabilities- that is, it represents all the possible values of a probability when we don’t know what that probability is. Read [this](http://varianceexplained.org/statistics/beta_distribution_and_baseball/) for more.
 
 
 * Two major challenges in Mutli-task learning settings are : 
