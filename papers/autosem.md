@@ -22,22 +22,22 @@
   
  * **Automatic Task Selection**: 
  
-  * The process of selecting the relevant set of auxiliary tasks with which we train the primary task is formulated as a **multi-armed bandit**, with different auxiliary tasks representing the bandit arms.
-  
-  <a href="https://ibb.co/KL5KHkc"><img src="https://i.ibb.co/rcQdJSK/image.png" alt="image" border="0"></a>
-  
-  * The success rate of an arm represents the utility of its corresponding task, that is its contribution to the learning of the primary task. 
-  * The reward of using a task is defined to be 1 if sampling the task improves the validation metric on the primary task, otherwise its 0. 
+    * The process of selecting the relevant set of auxiliary tasks with which we train the primary task is formulated as a **multi-armed bandit**, with different auxiliary tasks representing the bandit arms.
+
+    <a href="https://ibb.co/KL5KHkc"><img src="https://i.ibb.co/rcQdJSK/image.png" alt="image" border="0"></a>
+
+    * The success rate of an arm represents the utility of its corresponding task, that is its contribution to the learning of the primary task. 
+    * The reward of using a task is defined to be 1 if sampling the task improves the validation metric on the primary task, otherwise its 0. 
 
 **More detailed exaplanation** :
- * The probability distributions of task utilities is represented by a Beta Distrbution where each task has its alpha and beta parameters. 
-   <a href="https://imgbb.com/"><img src="https://i.ibb.co/x34Jvy9/image.png" alt="image" border="0"></a>
-   
- * The Alpha and Beta of a given task are updated using a simple Bayes rule depending on the validation metric improvement on the primary task (reward) obtained by training on the corresponding task.
- 
-  * At the end of training, the expected value of the utility of a task can be computed using 
-  <a href="https://imgbb.com/"><img src="https://i.ibb.co/mv1TCF5/image.png" alt="image" border="0"></a>
-  Then we return the top-K tasks according to this expectation value.
-  
+  * The probability distributions of task utilities is represented by a Beta Distrbution where each task has its alpha and beta parameters. 
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/x34Jvy9/image.png" alt="image" border="0"></a>
+
+  * The Alpha and Beta of a given task are updated using a simple Bayes rule depending on the validation metric improvement on the primary task (reward) obtained by training on the corresponding task.
+
+   * At the end of training, the expected value of the utility of a task can be computed using 
+   <a href="https://imgbb.com/"><img src="https://i.ibb.co/mv1TCF5/image.png" alt="image" border="0"></a>
+   Then we return the top-K tasks according to this expectation value.
+
   
   
