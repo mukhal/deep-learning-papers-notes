@@ -20,14 +20,14 @@
   2. The **2nd** stage automatically learns the training mixing ratio between the selected set of tasks.
   
   
- * **Automatic Task Selection**: 
+ **Automatic Task Selection**: 
  
-    * The process of selecting the relevant set of auxiliary tasks with which we train the primary task is formulated as a **multi-armed bandit**, with different auxiliary tasks representing the bandit arms.
+   * The process of selecting the relevant set of auxiliary tasks with which we train the primary task is formulated as a **multi-armed bandit**, with different auxiliary tasks representing the bandit arms.
 
-    <a href="https://ibb.co/KL5KHkc"><img src="https://i.ibb.co/rcQdJSK/image.png" alt="image" border="0"></a>
+   <a href="https://ibb.co/KL5KHkc"><img src="https://i.ibb.co/rcQdJSK/image.png" alt="image" border="0"></a>
 
-    * The success rate of an arm represents the utility of its corresponding task, that is its contribution to the learning of the primary task. 
-    * The reward of using a task is defined to be 1 if sampling the task improves the validation metric on the primary task, otherwise its 0. 
+   * The success rate of an arm represents the utility of its corresponding task, that is its contribution to the learning of the primary task. 
+   * The reward of using a task is defined to be 1 if sampling the task improves the validation metric on the primary task, otherwise its 0. 
 
 **More detailed exaplanation** :
   * The probability distributions of task utilities is represented by a Beta Distrbution where each task has its alpha and beta parameters. 
