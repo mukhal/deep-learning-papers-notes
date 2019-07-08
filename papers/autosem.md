@@ -38,7 +38,7 @@
    * At the end of training, the expected value of the utility of a task can be computed using 
    <a href="https://imgbb.com/"><img src="https://i.ibb.co/mv1TCF5/image.png" alt="image" border="0"></a>
    
-   The first stage then returns the top-K tasks according to this expectation value.
+   * The first stage then returns the top-K tasks according to this expectation value.
 
   
   
