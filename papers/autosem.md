@@ -35,7 +35,9 @@
    
  * The Alpha and Beta of a given task are updated using a simple Bayes rule depending on the validation metric improvement on the primary task (reward) obtained by training on the corresponding task.
  
-  
+  * At the end of training, the expected value of the utility of a task can be computed using 
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/mv1TCF5/image.png" alt="image" border="0"></a>
+  Then we return the top-K tasks according to this expectation value.
   
   
   
