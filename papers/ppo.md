@@ -11,4 +11,5 @@
 
 * Easily implemented:
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F52603085%2Fppo-trpo-implementation&psig=AOvVaw0mFHSKdGXWr6ykIUPgaO1y&ust=1588607606290000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCKptWGmOkCFQAAAAAdAAAAABAD)
+<img src="https://i.stack.imgur.com/bVkQH.png">
+
