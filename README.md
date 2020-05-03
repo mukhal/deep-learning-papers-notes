@@ -32,3 +32,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 
 #### 2020-05
 * Experience Grounds Language [[link](https://arxiv.org/pdf/2004.10151.pdf)], [[Notes](papers/experience.md)]
+* Proximal Policy Optimization Algorithms [[link](https://arxiv.org/pdf/1707.06347.pdf)], [[Notes](papers/ppo.md)]
