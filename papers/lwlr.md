@@ -1,8 +1,8 @@
 
-### Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers
+### Layer-wise Relevance Propagation for Deep Neural Network Architectures
 
 
-* Explainable ML is a bit of a new topic to me, but it looks interesting! They are mainly useful in safety-critical domains, where practitioners must know tha basis upon which the network made its decision.
+* Explainable ML is a bit of a new topic to me, but it looks interesting! It's mainly useful in safety-critical domains, where practitioners must know tha basis upon which the network made its decision.
 
 * **Q**: What is Layer-wise relevance propagation?
   **A**: An approach that enables us to assign relevancy scores to pixels of an image, i.e. Which of those pixels has contributed most to the classification decision of the network?
@@ -13,10 +13,8 @@
 Propagation formula: 
 
 <img src="https://miro.medium.com/max/822/1*yAGiGS8nHfXxrnXP_u_P8Q.png">
- 
- 
-* **Q**: What does this paper contribute?
-  **A**: While the idea of layer-wise relevance propagation was proposed before, the previous apprach was constrained to generalized linear mappings. This paper extends it to product-type(what is that??) non-linearities.
+ Where neuron j is in the layer before neuron k. Note that the contribution of R_k to R_j is normalized by the contribution of R_k to all the neurons in the preceding layer of R_j
+
   
   
   
