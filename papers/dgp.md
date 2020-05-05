@@ -1,5 +1,5 @@
 
-### Distributional Reinforcement Learning for Energy-Based Sequential Models
+### [Distributional Reinforcement Learning for Energy-Based Sequential Models](https://arxiv.org/abs/1912.08517)
 
 
 * When Autoregressive models are given a prefix, they output a normalized conditional probability distribution over the next token x: p(x|C). They can be seen as policies while states are the context prefix provided. 
