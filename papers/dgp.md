@@ -8,7 +8,8 @@
     * Training 1: Aims at fitting the EBM to data.
     * Training 2 (RL-as-optimization): Fits an AM policy that maximizes the EMB potential
     * Training 2 (RL-as-sampling, distributional RL): Fits  an AM policy that approximates the normalized potential. 
-* RL-as-sampling aims at minimizing the cross-entropy between the policy and the normalized potential.
+* RL-as-sampling aims at minimizing the cross-entropy between the policy and the normalized potential:
 
 
-<img src="https://render.githubusercontent.com/render/math?math=\nabla_\theta CE(p, \pi_{\theta}) = - \sum_x{p(x) \nabla_\theta log \pi_{\theta}(x) } = - \mathbb{E}_{x \sim \pi_{\theta} p(.)} \nabla_\theta log \pi_{\theta}(x) \\ = -1">
+   <img src="https://render.githubusercontent.com/render/math?math=\nabla_\theta CE(p, \pi_{\theta}) = - \sum_x{p(x) \nabla_\theta log \pi_{\theta}(x) } \\ = - \mathbb{E}_{x \sim \pi_{\theta} (.)} \frac{p(x)}{\pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) \\ = - \mathbb{E}_{x \sim \pi_{\theta} (.)} \frac{1}{Z} \frac{P(x)}{  \pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) \\
+=  - \frac{1}{Z} \mathbb{E}_{x \sim \pi_{\theta} (.)}  \frac{P(x)}{  \pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) ">
