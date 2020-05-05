@@ -12,5 +12,7 @@
 
 
    <img src="https://render.githubusercontent.com/render/math?math=\nabla\theta CE(p, \pi_{\theta}) = - \sum_x{p(x) \nabla_\theta log \pi_{\theta}(x) }">
- 
- <img src="https://render.githubusercontent.com/render/math?math== - \mathbb{E}_{x \sim \pi_{\theta} (.)} \frac{p(x)}{\pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) \\ "> 
+
+    <img src="https://render.githubusercontent.com/render/math?math== - \mathbb{E}_{x \sim \pi_{\theta} (.)} \frac{p(x)}{\pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) \\ "> 
+    
+     <img src="https://render.githubusercontent.com/render/math?math==  - \frac{1}{Z} \mathbb{E}_{x \sim \pi_{\theta} (.)}  \frac{P(x)}{  \pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) ">
