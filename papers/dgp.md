@@ -19,3 +19,9 @@
     
     
      <img src="https://render.githubusercontent.com/render/math?math==  - \frac{1}{Z} \mathbb{E}_{x \sim \pi_{\theta} (.)}  \frac{P(x)}{  \pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) ">
+     
+     Or off-policy case:
+     
+         
+     <img src="https://render.githubusercontent.com/render/math?math==  - \frac{1}{Z} \mathbb{E}_{x \sim \q(.)}  \frac{P(x)}{  \q(x)} \nabla_\theta log  \pi_{\theta}(x) ">
+     
