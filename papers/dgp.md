@@ -11,5 +11,6 @@
 * RL-as-sampling aims at minimizing the cross-entropy between the policy and the normalized potential:
 
 
-   <img src="https://render.githubusercontent.com/render/math?math=\nabla\theta CE(p, \pi_{\theta}) = - \sum_x{p(x) \nabla_\theta log \pi_{\theta}(x) } \\">
-  <img src="https://render.githubusercontent.com/render/math?math= = - \mathbb{E}_{x \sim \pi_{\theta} (.)} \frac{p(x)}{\pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) \\ "> 
+   <img src="https://render.githubusercontent.com/render/math?math=\nabla\theta CE(p, \pi_{\theta}) = - \sum_x{p(x) \nabla_\theta log \pi_{\theta}(x) }">
+ 
+ <img src="https://render.githubusercontent.com/render/math?math= = - \mathbb{E}_{x \sim \pi_{\theta} (.)} \frac{p(x)}{\pi_{\theta}(x)} \nabla_\theta log  \pi_{\theta}(x) \\ "> 
