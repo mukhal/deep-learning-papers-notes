@@ -23,6 +23,8 @@
      Or off-policy case:
 
      <img src="https://render.githubusercontent.com/render/math?math=- \frac{1}{Z} \mathbb{E}_{x \sim \q(.)}  \frac{P(x)}{  \q(x)} \nabla_\theta log  \pi_{\theta}(x) ">
-     
-   * On-policy case had convergence issues
+     * On-policy case had convergence issues
+
+     Off-policy algorithm: 
+     <img src="https://i.ibb.co/yykxkHY/Screenshot-from-2020-05-05-22-09-54.png">
    * Off-policy works better. q(x) is initialized with an Autoregressive Model fit on the data
