@@ -29,7 +29,7 @@
      **Off-policy algorithm**: 
      
      
-     <img src="https://i.ibb.co/yykxkHY/Screenshot-from-2020-05-05-22-09-54.png" width="200" height="100">
+     <img src="https://i.ibb.co/yykxkHY/Screenshot-from-2020-05-05-22-09-54.png" width="400" height="300">
    
    
    * Off-policy works better. q(x) is initialized with an Autoregressive Model fit on the data
