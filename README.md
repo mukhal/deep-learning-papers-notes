@@ -35,3 +35,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Proximal Policy Optimization Algorithms [[link](https://arxiv.org/pdf/1707.06347.pdf)], [[Notes](papers/ppo.md)]
 * Fine-Tuning Language Models from Human Preferences [[link](https://arxiv.org/pdf/1909.08593.pdf)], [[Notes](papers/finetune-lm-rl.md)]
 * Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers [[Notes](papers/lwlr.md)]
+* Distributional Reinforcement Learning for Energy-Based Sequential Models [[Notes](papers/dgp.md)]
