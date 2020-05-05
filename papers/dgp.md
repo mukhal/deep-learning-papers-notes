@@ -30,4 +30,13 @@
      
      
      <img src="https://i.ibb.co/yykxkHY/Screenshot-from-2020-05-05-22-09-54.png">
+   
+   
    * Off-policy works better. q(x) is initialized with an Autoregressive Model fit on the data
+   
+   
+   **Questions** :
+   
+   1. What is the moment matching property?
+   2. My understanding is the following: To convert any RL-as-optimization problem to distributional-RL: Replace the reward term by the unnormalized potential divided by the policy disctribution. Is that correct?
+   3. In all the equations above, x represents a sequence, meaning to compute Pi(x), we have to factor it over time P(x) = P(x_n| x_n-1, .. x_1) P(x_n-1| x_n-2,..x_1)... P(x_1)
