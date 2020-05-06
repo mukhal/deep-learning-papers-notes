@@ -8,3 +8,7 @@ echo "* $paper_name [[link]($paper_link)], [[Notes](papers/$paper_short.md)]" >>
 # creating file
 touch papers/$paper_short.md
 echo "### $paper_name" >> papers/$paper_short.md
+
+git add papers/$paper_short.md
+git commit -m "Added $paper_name"
+git push origin master 
