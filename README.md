@@ -37,3 +37,6 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers [[Notes](papers/lwlr.md)]
 * Distributional Reinforcement Learning for Energy-Based Sequential Models [[Notes](papers/dgp.md)]
 * Calibration Of Pretrained Transformers [[link](https://arxiv.org/pdf/2003.07892.pdf)], [[Notes](papers/calib.md)]
+
+* REALM: Retrieval-Augmented Language Model Pre-Training [[link](https://arxiv.org/pdf/2002.08909.pdf)], [[Notes](papers/realm.md)]
+* REALM: Retrieval-Augmented Language Model Pre-Training [[link](https://arxiv.org/pdf/2002.08909.pdf)], [[Notes](papers/realm.md)]

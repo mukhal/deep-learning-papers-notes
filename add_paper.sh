@@ -10,5 +10,6 @@ touch papers/$paper_short.md
 echo "### $paper_name" >> papers/$paper_short.md
 
 git add papers/$paper_short.md
+git add .
 git commit -m "Added $paper_name"
 git push origin master 
