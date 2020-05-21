@@ -40,3 +40,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * REALM: Retrieval-Augmented Language Model Pre-Training [[link](https://arxiv.org/pdf/2002.08909.pdf)], [[Notes](papers/realm.md)]
 * Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
 * Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
+* Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
