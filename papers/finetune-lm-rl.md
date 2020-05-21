@@ -8,7 +8,7 @@
 
 * This paper aims at finetuning it using an RL-based objective. We have a reward the is given to any generated output. We want to finetune our model such that its generation are "good" w.r.t to this reward.
 
-* In the paper, the reward comes from another model (usually the same LM before fineutning). The reward models itself is trained using human labels.
+* In the paper, the reward comes from another model (usually the same LM before fineutning + a randomly initialized head). The reward models itself is trained using human labels.
 
 * A KL-divergence term is added to the Reward(x,y) to make sure the finetuned model does not deviate largerly from the original LM (before fine-tuning)
 
