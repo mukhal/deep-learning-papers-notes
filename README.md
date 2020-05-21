@@ -41,3 +41,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
 * Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
 * Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
+* Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
