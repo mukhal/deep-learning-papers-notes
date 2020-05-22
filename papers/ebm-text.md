@@ -10,4 +10,4 @@
 
 <img src="https://i.imgur.com/pVpprcH.png">
 
-To minimize the first term, the energy term of the human text <img src="https://render.githubusercontent.com/render/math?math== s_{\theta}(x_+)"> must be very low. To
+To minimize the first term, the energy term of the human text <img src="https://render.githubusercontent.com/render/math?math= s_{\theta}(x_+)"> must be very low. To
