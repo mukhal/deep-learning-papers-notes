@@ -39,6 +39,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 * Calibration Of Pretrained Transformers [[link](https://arxiv.org/pdf/2003.07892.pdf)], [[Notes](papers/calib.md)]
 * REALM: Retrieval-Augmented Language Model Pre-Training [[link](https://arxiv.org/pdf/2002.08909.pdf)], [[Notes](papers/realm.md)]
 * Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
-* Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
-* Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
-* Byte pair encoding is suboptimal for Language Model Pretraining [[link](https://arxiv.org/abs/2004.03720)], [[Notes](papers/bpe_sub.md.md)]
+* Energy-based Models for Text [[link](https://arxiv.org/abs/2004.10188)], [[Notes](papers/ebm-text.md.md)]
