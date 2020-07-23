@@ -43,3 +43,7 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 
 #### 2020-06
 * Your GAN is Secretly an Energy-based Model and You Should Use Discriminator Driven Latent Sampling [[link](https://arxiv.org/pdf/2003.06060.pdf)], [[Notes](papers/gan-ebm.md)]
+
+#### 2020-07
+* Do You Have the Right Scissors? Tailoring Pre-trained Language Models via Monte-Carlo Methods [[link](https://www.aclweb.org/anthology/2020.acl-main.314.pdf)], [[Notes](papers/scissors.md)]
+
