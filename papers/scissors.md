@@ -7,7 +7,7 @@
 * Why does this happen? Since MLE minimizes the Kullback-Leibler divergence between model and true distributions, it tries to cover the data region as much as it can but in the process, assigns probability mass to non-data regions (over-generalization).
 
   
-  ![](https://imgur.com/h5gQPZF)
+ <img src="https://i.imgur.com/h5gQPZF.png" width="400" height="200">
 
 * The paper proposes a 3-component approach to fix this:
   1. **Ratio estimator** that given a sentence x, estimates P_model(x)/P_true(x). They use a CNN trained to discriminate between points x from the data, and x coming from the model. They employ two additional techniques for that: Dual estimator (to be able to approximate this ratio, for incomplete samples i.e you do not have to wait until you have generated the whole sentence. Otherwise, this would be very inefficient.). The other technique is inspired from boosting, where you build your estimator in a hierarhcical way using the previous one.
