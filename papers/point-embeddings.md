@@ -8,5 +8,5 @@
 * In this work, the authors propose a different type of embeddings that in some sense subsumes the Gaussian Embeddings (as gaussian distributions are a special case of Elliptical Distributions), and that is more general in the sense that it can represent both probabilistic and points embeddings.
 * This paper employs Elliptical Uniform Distributions with 2-Wasserstein as the distance metric. The authors start by producing a parametrization of elliptical distribution that is based on characterstic functions in order to handle cases where the scale matrix C is not full rank (non-invertible), and proceed to show the formula for the 2-Wasserstein metric in the case of elliptical uniform distributions, which depends on Bures metric :
 
-![](https://imgur.com/BscgYuy)
+![](https://i.imgur.com/BscgYuy.png)
 * Optimization is done using the Riemannian 
