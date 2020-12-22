@@ -1,7 +1,5 @@
 ## paper-notes
 
-The idea of this repo was inspired by Jason Benn's similar [repo](https://github.com/JasonBenn/deep-learning-paper-notes/).
-
 #### 2018-07
 * Difficulty Controllable Question Generation for Reading Comprehension [[notes](papers/dc-question-generation.md)] [[link](https://arxiv.org/abs/1807.03586)]
 *  Universal Transformers [[notes](papers/universal-transformers.md)] [[link](https://arxiv.org/abs/1807.03819)]
@@ -46,4 +44,7 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 
 #### 2020-07
 * Do You Have the Right Scissors? Tailoring Pre-trained Language Models via Monte-Carlo Methods [[link](https://www.aclweb.org/anthology/2020.acl-main.314.pdf)], [[Notes](papers/scissors.md)]
+
+####
+* Generalizing Point Embeddings using the Wasserstein Space of Elliptical Distributions [[link](https://arxiv.org/abs/1805.07594)], [[Notes](papers/point-embeddings.md)]
 
