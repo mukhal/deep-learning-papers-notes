@@ -9,4 +9,6 @@
 * This paper employs Elliptical Uniform Distributions with 2-Wasserstein as the distance metric. The authors start by producing a parametrization of elliptical distribution that is based on characterstic functions in order to handle cases where the scale matrix C is not full rank (non-invertible), and proceed to show the formula for the 2-Wasserstein metric in the case of elliptical uniform distributions, which depends on Bures metric :
 
 ![](https://i.imgur.com/BscgYuy.png)
-* Optimization is done using the Riemannian 
+* The next step would be to learn elliptical distributions that minimize (or maximize) the squared 2-Wasserstein distance according to whether we have positive or negative pairs. Note that we must constrain the scale parameter to the manifold of positive semi-definite matrices. One idea is to do Manifold Optimization, which is done using the Riemannian gradient descent with the following update rule:
+
+![](https://i.imgur.com/SqK7YEH.png)
