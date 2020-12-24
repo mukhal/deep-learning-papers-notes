@@ -27,4 +27,7 @@ It can be proven that these updates are equivalent to the Rienmann gradient desc
 * Then a psuedo-dot-product is defined which is needed for word embeddings applications. The psuedo-dot-product is based on the polarization identity, which recovers the norm from do-product
 
 This -> ![](https://i.imgur.com/Kusm4Ls.png)
+
 Leads to this ![](https://i.imgur.com/0JHDWZF.png)
+
+where this psuedo-dot-product can be a measure for similarity between the two measures u_{a,A} and u_{b,B}
