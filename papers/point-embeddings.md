@@ -28,6 +28,8 @@ It can be proven that these updates are equivalent to the Rienmann gradient desc
 
 The polarization identity: ![](https://i.imgur.com/Kusm4Ls.png)
 
-Leads to this ![](https://i.imgur.com/0JHDWZF.png)
+Using the 2-Wasserstein distance as a surrorgate for the difference norm leads to this ![](https://i.imgur.com/0JHDWZF.png)
 
-where this psuedo-dot-product can be a measure for similarity between the two measures u_{a,A} and u_{b,B}
+where this psuedo-dot-product can be a measure for similarity between the two measures u_{a,A} and u_{b,B}.
+
+This 
