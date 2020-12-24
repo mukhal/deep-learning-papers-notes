@@ -18,3 +18,10 @@ However, when the step size becomes negative for some reason, this could lead to
 * Another simploer way to handle the PSD constraint for the scale parameters is to rewrite A in the factor form  A = L L' and it can be shown that the derivative of the Bures metric w.r.t the factor matrix L becomes 
 
 ![](https://i.imgur.com/whFXxp8.png)
+
+It can be proven that these updates are equivalent to the Rienmann gradient descent updates while they only require linear updates in L.
+* It can be further shown that the Bures metric reduces to the Frobenuis distance between the two factors of A and B: 
+
+![](https://i.imgur.com/u1KiAmU.png)
+
+
