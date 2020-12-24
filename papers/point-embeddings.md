@@ -32,4 +32,11 @@ Using the 2-Wasserstein distance as a surrorgate for the difference norm leads t
 
 where this psuedo-dot-product can be a measure for similarity between the two measures u_{a,A} and u_{b,B}.
 
-This 
+The derivative of the psuedo-dot-product w.r.t A can be computed as 
+![](https://i.imgur.com/ALWrowe.png)
+
+* For word embeddings, they use a similar max-margin loss to the one proposed in (Vilins and McCallum, 2015). One figure I really think shows the advantages of probabilistic embeddings is this:
+
+![](https://i.imgur.com/lmR1TbG.png)
+
+Which shows how such embeddings are able to capture hierarhcichal relationships such as hypernymy: that Bach is a type of Man, or a dog is a type of Mammal, etc.
