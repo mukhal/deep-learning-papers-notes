@@ -2,7 +2,7 @@
 ## Generalizing Point Embeddings using the Wasserstein Space of Elliptical Distributions
 
 
-* This paper builds on top of (Vilnis and McCallum, 2015) work, which proposed to embed words using gaussian distributions. The idea is that every word is a gaussian distribution with its own mean and (diagonal) variance. 
+* This paper builds on top of (Vilnis and McCallum, 2015) work, which proposed to embed words using gaussian distributions. The idea is that einstead of representing very word as a vector (as done with word2vec, for example), we represent each word as a gaussian distribution with its own mean and (diagonal) variance. 
 * In order to propose any type of embeddings, you need to define 3 components: Distance Metric, Loss function, and a set of positive and negative training pairs. For Gaussian embeddings, the distance metric was the likelihood product kernel (or KL-divergenve), Loss function is defiend as a max-margin loss where positive pairs should produce lower energy than negative ones.
 * One problem with Gaussian embeddings is that naturally the don't subsume point embeddings when the variance goes to zero. The problem is that the KL divergence can go up to inifnity when the variance is small. That means that Gaussian embeddings cannot reduce to point embeddings, which makes them less flexible. 
 * In this work, the authors propose a different type of embeddings that in some sense subsumes the Gaussian Embeddings (as gaussian distributions are a special case of Elliptical Distributions), and that is more general in the sense that it can represent both probabilistic and points embeddings.
