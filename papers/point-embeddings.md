@@ -39,4 +39,4 @@ The derivative of the psuedo-dot-product w.r.t A can be computed as
 
 ![](https://i.imgur.com/lmR1TbG.png)
 
-Which shows how such embeddings are able to capture hierarhcichal relationships such as hypernymy: that Bach is a type of Man, or a dog is a type of Mammal, etc.
+Which shows how such embeddings are able to capture hierarchical relationships such as hypernymy: that Bach is a type of Man, or a dog is a type of Mammal, etc.
