@@ -40,8 +40,9 @@ The derivative of the psuedo-dot-product w.r.t A can be computed as
 ![](https://i.imgur.com/lmR1TbG.png)
 
 Which shows how such embeddings are able to capture hierarchical relationships such as hypernymy: that Bach is a type of Man, or a dog is a type of Mammal, etc.
-* Impressions and interesting ideas: ** 
-- Incremental work over gausasian embeddings: Gaussian embeddings do not subsume points embeddings, we propose to use the generalized version of multivariate gaussian distributions i.e elliptical distributions.
+
+**Impressions and interesting ideas:** 
+- The whole motivation of the paper is to add more flexibility to Gaussian Embeddings by proposping to use the generalized version of multivariate gaussian distributions i.e elliptical distributions.
 - I liked the idea of the psuedo-dot-product inspired by the polarization identity.
 - 
 
