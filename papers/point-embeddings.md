@@ -43,6 +43,7 @@ Which shows how such embeddings are able to capture hierarchical relationships s
 
 **Impressions and interesting ideas:** 
 - The whole motivation of the paper is to add more flexibility to Gaussian Embeddings by proposping to use the generalized version of multivariate gaussian distributions i.e elliptical distributions.
+- It's a general framework for probabilistic embeddings.
 - I liked the idea of the psuedo-dot-product inspired by the polarization identity.
 - 
 
