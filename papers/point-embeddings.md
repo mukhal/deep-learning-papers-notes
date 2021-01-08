@@ -47,6 +47,7 @@ Which shows how such embeddings are able to capture hierarchical relationships s
 - I liked the idea of the psuedo-dot-product inspired by the polarization identity.
 - 
 
-** Parts I don't fully understand ** 
+**Parts I don't fully understand** 
 - Why would the step length be negative causing geodesicity not to hold? Isn't the step length always positive?
-- Haven't focues on Newton-Shulz algorithm for matrix root computation
+- Haven't focued on Newton-Shulz algorithm for matrix root computation
+- 
