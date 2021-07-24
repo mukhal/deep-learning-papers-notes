@@ -43,3 +43,4 @@ The idea of this repo was inspired by Jason Benn's similar [repo](https://github
 
 #### 2020-06
 * Your GAN is Secretly an Energy-based Model and You Should Use Discriminator Driven Latent Sampling [[link](https://arxiv.org/pdf/2003.06060.pdf)], [[Notes](papers/gan-ebm.md)]
+* REPRESENTATION LEARNING VIA INVARIANT CAUSAL MECHANISMS [[link](https://openreview.net/pdf\?id\=9p2ekP904Rs)], [[Notes](papers/repr_inv.md)]
